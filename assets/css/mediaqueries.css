@@ -1,0 +1,140 @@
+@media only screen and ( max-width: 1500px ) { 
+	
+}
+/*-----------------------------------*/
+@media only screen and ( max-width: 1224px ) { 
+nav{
+	font-size: 1.1rem;
+	text-align: center;
+   	justify-content: center;
+   	align-items: center;
+   	padding-top: 0.5rem;
+   	font-weight: bold;
+}
+
+	#typedtext{
+		font-size: 1.15rem;
+		margin-top: 0.4rem;
+		margin-bottom: 0rem;
+		margin-left: 1rem;
+		font-weight: bold;
+	}
+}
+/*-----------------------------------*/
+@media ( max-width: 1024px ) {
+	#photo>img{
+	margin: 0px;
+	width: 200px;
+	height: 150px;
+	margin-top: 25px;
+	}
+
+	#photo{
+	display: block;
+    margin-left: auto ;
+    margin-right: auto !important;
+    width: 150px;
+    height: 100px;
+	border-radius: 5px;
+	align-items: center;
+	}
+nav{
+	font-size: 1.4rem;
+	text-align: center;
+	display: block;
+   	padding-top: 0.5rem;
+   	margin: 0px auto;
+   	font-weight: bold;
+   	clear: both;
+   	min-height: 35vh;
+
+}
+	#typedtext{
+		display: none;
+	}
+
+	.portafolio_h1{
+		margin: 0rem;
+		font-size: 1rem;
+	}
+		.url_projects{
+			margin: 0rem;
+	}
+
+	.menu{
+		align-items: center;
+	}
+
+	.img_projects{
+    min-height: 200px;
+    min-width: 200px;
+    clear:both;
+	}
+	.portafolio_p{
+		display: none;
+	}
+
+	.wrapper_inner{
+		border: none; 
+		margin: 0%;
+		height: 100vh;
+	}
+textarea, input, textarea, select{
+	min-width: 220px;
+}
+
+textarea{
+	min-height: 170px;
+}
+
+.icons{
+ 	width: 32px;
+ 	height: 32px;
+ }
+}
+/*-----------------------------------*/
+@media ( max-width: 624px ) {
+	nav{
+		min-height: 75px;
+	}
+ .icons{
+ 	display: none;
+ }
+ 
+	.wrapper_inner{
+		width: 90.5vw;
+		min-width: 200px;
+		height: 90.5vh;
+		min-height: 200px;
+		border: none; 
+		margin: 0%;
+	}
+
+    #photo>img{
+	margin: 0px;
+	width: 200px;
+	height: 150px;
+	}
+
+	#photo{
+	display: block;
+    margin-left: auto ;
+    margin-right: auto !important;
+    width: 200px;
+    height: 100px;
+
+	border-radius: 5px;
+	align-items: center;
+	}
+
+	fieldset{
+		margin-right: 0px;
+		min-height: 100px;
+	}
+
+	.portafolio_h1{
+		display: none;
+		padding-top: 0px;
+	}
+
+}

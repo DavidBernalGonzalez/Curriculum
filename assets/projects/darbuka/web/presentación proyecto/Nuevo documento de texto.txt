@@ -1,0 +1,15 @@
+Jugando con JavaScript, HTML5 y CSS3 he realizado un miniproyecto donde he juntado mis dos pasiones la tecnología y la música. En este proyecto, trato de mostrar los diferentes sonidos que ofrece la darbuka. Este instrumento de percusión proviene de los árabes.
+
+
+
+Su nombre es un derivado de la raíz árabe "darb", que significa "golpe". Este es básicamente un tambor en forma de copa con un solo parche (que puede ser de cuero de cabra, piel de pescado, o de celulosa) en el orificio más grande.
+
+
+
+De sonidos entre otros, existen varios. El "dum", un sonido grave que se obtiene golpeándolo en el centro, y "tak", un sonido más agudo. Además de sus dos golpes principales, existen también sonidos agudos ornamentales llamados "harakat" (lit. movimientos), similares a los redobles en la batería realizados con los dedos.
+
+
+
+¿Que os parece la idea? Espero que os guste :)
+
+Saludos!

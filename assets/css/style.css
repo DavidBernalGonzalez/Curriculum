@@ -1,0 +1,263 @@
+/* RESET CSS */
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Indie Flower', cursive;
+	background-color: #EDEDED;
+}
+/*
+	font-family: 'Oswald', sans-serif;
+font-family: 'Fredericka the Great', cursive;*/
+
+nav{
+	font-size: 1.3rem;
+	text-align: center;
+	display: flex;
+   	justify-content: center;
+   	align-items: center;
+   	clear: both;
+   	padding-top: 0.5rem;
+}
+/*.a{
+	text-decoration: none;
+	color: black;
+}*/
+nav>div>a{
+	margin-right: 1rem;
+	cursor: pointer;
+	margin-top: 0.3rem;
+	margin-left: 0.3rem;
+	text-decoration: none;
+	color: black;
+	align-items: center;
+}
+
+/*#3390ff*/
+#link_contacto{
+	margin-right: 0px;
+}
+nav>div>a:hover{
+	background-color: #3390ff;
+}
+
+.wrapper_inner{
+	width: 80vw;
+	height: 80vh;
+	background-color: #59BBE8; 
+	/*
+	#59BBE8 azul de fuera
+	#438CAE azul de dentro*/
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  	margin: 0.5rem;
+	background: white; 
+	padding: 10px;
+	border: 5px solid #438CAE; 
+	border-radius: 5px;
+}
+#photo>img{
+	width: 30.5vw;
+	height: 75vh;
+	border-radius: 5px;
+	float:left;
+}
+header{
+	float:left;
+	margin-left: 1rem;
+}
+
+.icons{
+	width: 1.5vw;
+	height: 3vh;
+}
+
+#typedtext{
+	font-size: 1.45rem;
+	margin-top: 0.4rem;
+	margin-bottom: 0rem;
+	margin-left: 1rem;
+}
+
+.description{
+	font-weight: bold;
+
+}
+h1{
+	text-decoration: underline;
+	color: #438CAE;
+	font-size: 1.3rem;
+	display: block;
+}
+
+h2{
+	color: #438CAE;
+	font-size: 0.95rem;
+}
+
+#info-personal{
+	font-size: 1.25rem;
+	margin-top: 3rem;
+	margin-bottom: 0rem;
+	padding-top: 3rem;
+}
+hr{
+	color: #f00;
+	background-color: #438CAE;
+	height: 5px;
+	border-radius: 5px;
+}
+
+#estudios{
+	font-size: 1.25rem;
+	margin: 0rem;
+}
+
+.subir, .titulos{
+	text-decoration: none;
+	color: red;
+}
+.img_pdf{
+	width: 1rem;
+	height: : 1rem;
+}
+
+.img_projects{
+	width: 12.5vw;
+	height: 25vh;
+	float: left;
+	margin-right: 1.5rem;
+	margin-bottom: 5rem;
+	border-radius: 10%;
+	margin-left: 1.5rem;
+	margin-bottom: 0rem;
+	filter: grayscale(25%);
+}
+
+.img_projects:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1.2s;
+        opacity: 0.9;
+        background-size: cover;
+    	background-repeat: no-repeat; 
+    	filter: grayscale(80%);
+    	border: 1.2px solid black;
+}
+
+.portafolio_h1{
+	color: red;
+	margin-bottom: 0rem;
+	margin-left: 2.5rem;
+	margin-bottom: 2rem;
+}
+.portafolio_p{
+	margin-top: 0rem;
+}
+
+.div_portafolio{
+display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.article_portafolio{
+	margin-bottom: 2rem;
+}
+/*CSS skills*/
+
+
+.skillBox{
+	margin: 20px 0;
+}
+
+.skillBox p{
+	color: #438CAE;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	padding: 0;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.skillBox p:nth-child(2){
+	float: right;
+	position: relative;
+	margin: 0 5px 10px;
+	padding: 0;
+}
+.skill_level{
+	background: #438CAE;
+	width: 80%; /*level of tecnology*/
+	height: 15px;
+}
+
+form{
+	display: inline-block;
+	font-family: 'Indie Flower', cursive;	
+	font-weight: bold;
+}
+
+form>label{
+	float: left; width: 10em; 
+	margin-bottom: 1rem;
+
+}
+
+fieldset{
+	border: 1px dotted black;
+	border-radius: 1rem;
+	width: 29vw;
+	float: 0 auto;
+	margin-bottom: 0.75rem;
+		background-color: white;
+
+}
+textarea[id="subject"]{
+	border: 1.5px dotted black;
+	background: #EDEDED;
+	float: right; 
+	width: 20vw;
+	height: 10vh; 
+	font-family: 'Indie Flower', cursive;	
+	margin-bottom: 1rem;
+	color: #438CAE;
+	
+}
+input[type="text"], input[type="email"], input[type="tel"], select{
+	border: 1.5px dotted black;
+	background: #EDEDED;
+	float: right;
+	width: 20vw;
+	font-family: 'Indie Flower', cursive;	
+	margin-bottom: 1rem;
+	color: #438CAE;
+	font-weight: bold;
+}
+
+input[type="submit"]{
+	clear: both;
+	border: 1.5px dotted black;
+	background: #438CAE;
+	float: right; 
+	width: 20vw;
+	font-family: 'Indie Flower', cursive;	
+	margin-bottom: 1rem;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+textarea{
+	font-weight: bold;
+}
+
+legend{
+	background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+    font-weight: bold;
+}

@@ -1,0 +1,80 @@
+body{
+	background-image:url('darbuka3.jpg');
+	height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: XXIIARABIAN-ONENIGHTSTAND;
+	font-size: 45px;
+	color:yellow;
+}
+
+@font-face {
+font-family: XXIIARABIAN-ONENIGHTSTAND;
+src: url(font/XXIIARABIAN-ONENIGHTSTAND.ttf);
+}
+
+#welcometo{
+	margin-top: 20px;
+}
+
+#welcome{
+	margin-top: 100px;
+	font-size: 45px;
+}
+
+#to{
+	font-size: 30px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+h1{
+	font-size: 100px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.boton, .boton1{
+	background-image: url(darbuka1.jpg);
+	background-size: cover; 
+	width: 200px;
+	font-size: 20px;
+	padding: 6.5px;
+	margin-left: 15.5%;
+	margin-bottom: 5px;
+	border: .2rem solid black;
+  	border-radius: .5rem;
+  	border-color: yellow;
+}
+
+.boton1{
+	background-image: url(darbuka2.jpg);
+	background-size: cover; 
+}
+
+.tecla{
+	font-size: 45px;
+}
+
+.playing{
+	transform:scale(1.2);
+    opacity: 0.6;
+    color: Linen;
+  
+}
+
+.playing div{
+	margin-left: 50%;
+}
+
+.key{
+	width: 0px;
+	font-size: 20px;
+	padding: 6.5px;
+
+	margin-bottom: 5px;
+	transition: all 0.75s;
+}
