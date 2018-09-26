@@ -1,3 +1,3 @@
-#Practica de Fundamentos HTML, CSS y JavaScript
+# Practica de Fundamentos HTML, CSS y JavaScript
 
-##For: David Bernal Gonzalez
+## For: David Bernal Gonzalez
